@@ -1,0 +1,180 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "$description": "Lexabit / Manda Design System tokens in W3C Design Tokens Community Group format. Source of truth: @manda/ui-design-system TypeScript package.",
+  "color": {
+    "brand": {
+      "primary": { "$value": "#3054E7", "$type": "color", "$description": "Manda Blue — primary brand color" },
+      "primary-dark": { "$value": "#2240B8", "$type": "color" },
+      "primary-light": { "$value": "#EBF0FD", "$type": "color" },
+      "secondary": { "$value": "#5C6BC0", "$type": "color" },
+      "secondary-dark": { "$value": "#3F51B5", "$type": "color" },
+      "secondary-light": { "$value": "#E8EAF6", "$type": "color" },
+      "tertiary": { "$value": "#7C4DFF", "$type": "color" },
+      "tertiary-dark": { "$value": "#651FFF", "$type": "color" },
+      "tertiary-light": { "$value": "#EDE7F6", "$type": "color" }
+    },
+    "semantic": {
+      "success": { "$value": "#4CAF50", "$type": "color" },
+      "success-dark": { "$value": "#388E3C", "$type": "color" },
+      "success-light": { "$value": "#E8F5E9", "$type": "color" },
+      "warning": { "$value": "#FF9800", "$type": "color" },
+      "warning-dark": { "$value": "#F57C00", "$type": "color" },
+      "warning-light": { "$value": "#FFF3E0", "$type": "color" },
+      "error": { "$value": "#F44336", "$type": "color" },
+      "error-dark": { "$value": "#D32F2F", "$type": "color" },
+      "error-light": { "$value": "#FFEBEE", "$type": "color" },
+      "info": { "$value": "#2196F3", "$type": "color" },
+      "info-dark": { "$value": "#1976D2", "$type": "color" },
+      "info-light": { "$value": "#E3F2FD", "$type": "color" }
+    },
+    "neutral": {
+      "50": { "$value": "#FAFAFA", "$type": "color" },
+      "100": { "$value": "#F5F5F5", "$type": "color" },
+      "200": { "$value": "#EEEEEE", "$type": "color" },
+      "300": { "$value": "#E0E0E0", "$type": "color" },
+      "400": { "$value": "#BDBDBD", "$type": "color" },
+      "500": { "$value": "#9E9E9E", "$type": "color" },
+      "600": { "$value": "#757575", "$type": "color" },
+      "700": { "$value": "#616161", "$type": "color" },
+      "800": { "$value": "#424242", "$type": "color" },
+      "900": { "$value": "#212121", "$type": "color" }
+    },
+    "role": {
+      "owner": { "$value": "#D32F2F", "$type": "color" },
+      "admin": { "$value": "#F57C00", "$type": "color" },
+      "manager": { "$value": "#1976D2", "$type": "color" },
+      "member": { "$value": "#388E3C", "$type": "color" },
+      "viewer": { "$value": "#616161", "$type": "color" },
+      "billing": { "$value": "#7B1FA2", "$type": "color" },
+      "custom": { "$value": "#00796B", "$type": "color" }
+    },
+    "source": {
+      "role-based": { "$value": "#1976D2", "$type": "color" },
+      "direct-grant": { "$value": "#F57C00", "$type": "color" },
+      "inherited": { "$value": "#388E3C", "$type": "color" }
+    }
+  },
+  "spacing": {
+    "base": { "$value": "8px", "$type": "dimension", "$description": "Base spacing unit (8px grid)" },
+    "xs": { "$value": "4px", "$type": "dimension" },
+    "sm": { "$value": "8px", "$type": "dimension" },
+    "md": { "$value": "16px", "$type": "dimension" },
+    "lg": { "$value": "24px", "$type": "dimension" },
+    "xl": { "$value": "32px", "$type": "dimension" },
+    "2xl": { "$value": "48px", "$type": "dimension" },
+    "3xl": { "$value": "64px", "$type": "dimension" }
+  },
+  "borderRadius": {
+    "none": { "$value": "0px", "$type": "dimension" },
+    "xs": { "$value": "2px", "$type": "dimension" },
+    "sm": { "$value": "4px", "$type": "dimension" },
+    "base": { "$value": "6px", "$type": "dimension" },
+    "md": { "$value": "8px", "$type": "dimension" },
+    "lg": { "$value": "12px", "$type": "dimension" },
+    "xl": { "$value": "16px", "$type": "dimension" },
+    "full": { "$value": "9999px", "$type": "dimension" }
+  },
+  "shadow": {
+    "subtle": {
+      "card": { "$value": "0 1px 4px rgba(0,0,0,0.06)", "$type": "shadow" },
+      "card-hover": { "$value": "0 2px 8px rgba(0,0,0,0.08)", "$type": "shadow" },
+      "dropdown": { "$value": "0 2px 10px rgba(0,0,0,0.07)", "$type": "shadow" },
+      "modal": { "$value": "0 4px 16px rgba(0,0,0,0.1)", "$type": "shadow" }
+    },
+    "medium": {
+      "card": { "$value": "0 2px 8px rgba(0,0,0,0.1)", "$type": "shadow" },
+      "card-hover": { "$value": "0 4px 12px rgba(0,0,0,0.15)", "$type": "shadow" },
+      "dropdown": { "$value": "0 4px 16px rgba(0,0,0,0.12)", "$type": "shadow" },
+      "modal": { "$value": "0 8px 24px rgba(0,0,0,0.2)", "$type": "shadow" }
+    },
+    "dramatic": {
+      "card": { "$value": "0 4px 12px rgba(0,0,0,0.16)", "$type": "shadow" },
+      "card-hover": { "$value": "0 8px 20px rgba(0,0,0,0.22)", "$type": "shadow" },
+      "dropdown": { "$value": "0 8px 24px rgba(0,0,0,0.2)", "$type": "shadow" },
+      "modal": { "$value": "0 16px 40px rgba(0,0,0,0.3)", "$type": "shadow" }
+    }
+  },
+  "typography": {
+    "font-family": {
+      "primary": { "$value": "Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif", "$type": "fontFamily" },
+      "mono": { "$value": "JetBrains Mono, Fira Code, Consolas, monospace", "$type": "fontFamily" },
+      "serif": { "$value": "Playfair Display, Georgia, Times New Roman, serif", "$type": "fontFamily" }
+    },
+    "font-size": {
+      "xs": { "$value": "11px", "$type": "dimension" },
+      "sm": { "$value": "12px", "$type": "dimension" },
+      "base": { "$value": "14px", "$type": "dimension" },
+      "lg": { "$value": "16px", "$type": "dimension" },
+      "xl": { "$value": "18px", "$type": "dimension" },
+      "2xl": { "$value": "20px", "$type": "dimension" },
+      "3xl": { "$value": "24px", "$type": "dimension" },
+      "4xl": { "$value": "28px", "$type": "dimension" },
+      "5xl": { "$value": "32px", "$type": "dimension" }
+    },
+    "font-weight": {
+      "light": { "$value": 300, "$type": "fontWeight" },
+      "regular": { "$value": 400, "$type": "fontWeight" },
+      "medium": { "$value": 500, "$type": "fontWeight" },
+      "semibold": { "$value": 600, "$type": "fontWeight" },
+      "bold": { "$value": 700, "$type": "fontWeight" }
+    },
+    "line-height": {
+      "tight": { "$value": "16px", "$type": "dimension" },
+      "snug": { "$value": "20px", "$type": "dimension" },
+      "normal": { "$value": "24px", "$type": "dimension" },
+      "relaxed": { "$value": "28px", "$type": "dimension" },
+      "loose": { "$value": "32px", "$type": "dimension" }
+    },
+    "heading-1": {
+      "$value": { "fontFamily": "Inter", "fontSize": "32px", "fontWeight": 600, "lineHeight": "40px", "letterSpacing": "-0.02em" },
+      "$type": "typography"
+    },
+    "heading-2": {
+      "$value": { "fontFamily": "Inter", "fontSize": "28px", "fontWeight": 600, "lineHeight": "36px", "letterSpacing": "-0.01em" },
+      "$type": "typography"
+    },
+    "heading-3": {
+      "$value": { "fontFamily": "Inter", "fontSize": "24px", "fontWeight": 500, "lineHeight": "32px" },
+      "$type": "typography"
+    },
+    "heading-4": {
+      "$value": { "fontFamily": "Inter", "fontSize": "20px", "fontWeight": 500, "lineHeight": "28px" },
+      "$type": "typography"
+    },
+    "heading-5": {
+      "$value": { "fontFamily": "Inter", "fontSize": "18px", "fontWeight": 500, "lineHeight": "26px" },
+      "$type": "typography"
+    },
+    "heading-6": {
+      "$value": { "fontFamily": "Inter", "fontSize": "16px", "fontWeight": 500, "lineHeight": "24px" },
+      "$type": "typography"
+    },
+    "body-1": {
+      "$value": { "fontFamily": "Inter", "fontSize": "16px", "fontWeight": 400, "lineHeight": "24px" },
+      "$type": "typography"
+    },
+    "body-2": {
+      "$value": { "fontFamily": "Inter", "fontSize": "14px", "fontWeight": 400, "lineHeight": "20px" },
+      "$type": "typography"
+    },
+    "caption": {
+      "$value": { "fontFamily": "Inter", "fontSize": "11px", "fontWeight": 400, "lineHeight": "16px", "letterSpacing": "0.03em" },
+      "$type": "typography"
+    },
+    "overline": {
+      "$value": { "fontFamily": "Inter", "fontSize": "12px", "fontWeight": 500, "lineHeight": "16px", "letterSpacing": "0.05em", "textTransform": "uppercase" },
+      "$type": "typography"
+    },
+    "button": {
+      "$value": { "fontFamily": "Inter", "fontSize": "14px", "fontWeight": 500, "lineHeight": "20px", "letterSpacing": "0.02em", "textTransform": "none" },
+      "$type": "typography"
+    }
+  },
+  "breakpoint": {
+    "xs": { "$value": "0px", "$type": "dimension" },
+    "sm": { "$value": "600px", "$type": "dimension" },
+    "md": { "$value": "900px", "$type": "dimension" },
+    "lg": { "$value": "1200px", "$type": "dimension" },
+    "xl": { "$value": "1536px", "$type": "dimension" }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "@manda/ui-design-system",
+  "version": "0.1.0",
+  "description": "Shared design system, brand tokens, and multi-theme MUI presets for Lexabit applications",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./i18n/en": {
+      "import": "./dist/i18n/en.js",
+      "require": "./dist/i18n/en.cjs",
+      "default": "./src/i18n/en.ts"
+    },
+    "./i18n/no": {
+      "import": "./dist/i18n/no.js",
+      "require": "./dist/i18n/no.cjs",
+      "default": "./src/i18n/no.ts"
+    },
+    "./src/i18n/en": {
+      "default": "./src/i18n/en.ts"
+    },
+    "./src/i18n/no": {
+      "default": "./src/i18n/no.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.0",
+    "react": "^18.2.0",
+    "react-admin": "^5.0.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^5.18.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "react": "^18.3.0",
+    "react-admin": "^5.1.0",
+    "react-dom": "^18.3.0",
+    "typescript": "^5.4.0",
+    "vite": "^5.4.0",
+    "vite-plugin-dts": "^4.0.0"
+  },
+  "keywords": [
+    "manda",
+    "lexabit",
+    "design-system",
+    "mui",
+    "theme",
+    "react",
+    "material-ui"
+  ],
+  "author": "Manda",
+  "license": "UNLICENSED"
+}
